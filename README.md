@@ -1,4 +1,3 @@
 # Pytorch-based-Player-Scoreboard-Game
-This Pytorch-based program simulates a player scoreboard game where 4 players compete to reach a score of 10 while avoiding elimination.
-The program generates scores every second and updates the scores of the players, declares winners,
-and removes eliminated players from the scoreboard in real-time.
+
+This is a simple game program that simulates a scoring system for 4 players. The game runs indefinitely until one of the players wins by reaching a score of 10 or all but one player is eliminated by reaching a score of -10. The program is implemented in Python using PyTorch and tensor operations. The scores and elimination status of each player are stored in PyTorch tensors, and a new tensor with 4 random values is generated every second to update the scores. The output of the program is cleared and updated after every iteration, displaying the scores of the remaining players and their elimination status. This project is a good example of using PyTorch and tensor operations for simple game simulations.
