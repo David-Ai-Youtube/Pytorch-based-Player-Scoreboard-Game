@@ -1,4 +1,7 @@
-#This code is a variation of the previous one that uses PyTorch tensors instead of Python lists for the scores and elimination status. The main differences are that the code uses PyTorch functions for array operations, such as torch.zeros to initialize the scores and elimination status, and torch.argmax to find the player with the highest score or that hasn't been eliminated. The code is similar in structure and implements the same game logic with the same win and elimination conditions.
+#This code is a variation of the previous one that uses PyTorch tensors instead of Python lists for the scores and elimination status. 
+#The main differences are that the code uses PyTorch functions for array operations, such as torch.zeros to initialize the scores and 
+#elimination status, and torch.argmax to find the player with the highest score or that hasn't been eliminated. 
+#The code is similar in structure and implements the same game logic with the same win and elimination conditions.
 
 import time
 from IPython.display import clear_output
